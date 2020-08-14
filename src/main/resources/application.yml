@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: videogamestore
+    url: jdbc:mysql://videogamestore.cagqok3rgo30.us-east-1.rds.amazonaws.com:3306/videogamestore?serverTimezone=UTC
+    username: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
